@@ -31,10 +31,10 @@ class MainActivityKt : AppCompatActivity() {
 
     override fun onRestart() {
         if (mClickBack) {
-            //启动之前点击的是返回键，此处可能需要切换首页 tab，刷新数据等
+            // TODO 启动之前点击的是返回键，此处可能需要切换首页 tab，刷新数据等
             Log.e("hidetag","上次是返回动作")
         } else {
-            //启动之前不是返回键
+            // TODO 启动之前不是返回键
             Log.e("hidetag","上次非返回")
         }
         super.onRestart()
