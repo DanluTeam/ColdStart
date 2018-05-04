@@ -278,9 +278,7 @@
 
 ## TODO
 
-```
 - [ ] 探究：为何新建的 Hello World 工程冷启动白屏时间比线上工程短一些
-```
 
 ## LICENCE
 NONE
